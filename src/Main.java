@@ -24,7 +24,7 @@ public class Main {
         try {
             int toto = Integer.parseInt(response.nextLine());
         } catch(NumberFormatException e) {
-            System.out.println("Cette valeur n'est pas un chiffre, essaie encore !");
+            System.exit(0);
         }
 
         int res = i * j;
